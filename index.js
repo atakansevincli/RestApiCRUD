@@ -11,7 +11,7 @@ app.use(bodyParser.json());
 
 app.use("/users", usersRoutes);
 
-app.get("/", (req, res) => res.send("Welcome to the Users API!"));
+app.get("/", (req, res) => res.send("Hoşgeldiniz Ahmet BEY!"));
 app.all("*", (req, res) =>
   res.status(404).send("You've tried reaching a route that doesn't exist.")
 );
