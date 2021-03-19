@@ -38,7 +38,7 @@
 ![schema](https://github.com/AtakanSevincli/RestApiCRUD/blob/master/README/14.png)
 
 ## User does not exist
-#### If you try read or delete nonexistent user, you 404 status and "user does not exist response message" .
+#### If you try read or delete nonexistent user, you will get404 status and "user does not exist response message" .
 ![schema](https://github.com/AtakanSevincli/RestApiCRUD/blob/master/README/11.png)
 <br/>
 ![schema](https://github.com/AtakanSevincli/RestApiCRUD/blob/master/README/12.png)
