@@ -15,6 +15,6 @@ app.all("*", (req, res) =>
   res.status(404).send("You've tried reaching a route that doesn't exist.")
 );
 
-app.listen(PORT, () =>
+app.listen(process.env.PORT || 5000, () =>
   console.log(`Server running on port: http://localhost:${PORT}`)
 );
