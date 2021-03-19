@@ -1,5 +1,10 @@
 # RestApiCRUD
 ![schema](https://github.com/AtakanSevincli/RestApiCRUD/blob/master/README/schema.png)
+###### `npm install uuid` 
+###### `npm install body-parser`
+###### `npm install --save-dev nodemon` 
+###### `npm start` 
+
 
 ## Create
 #### Users list is empty.
